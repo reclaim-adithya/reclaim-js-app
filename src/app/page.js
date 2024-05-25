@@ -11,7 +11,7 @@ import { data } from 'autoprefixer';
 const APP_ID = process.env.NEXT_PUBLIC_APP_ID || "0xE40B57DbAb0596ce6a556da671041C9039e788e5"
 const APP_SECRET = process.env.NEXT_PUBLIC_APP_SECRET || "0x4e24f5ac8352f83b3ea3dbfc4f237d561b4b397922bdf922281ea61efb87b5c9"
 
-const providerIds = [
+const providers = [
   { name: "Aadhaar Card Date of Birth", providerId: "5e1302ca-a3dd-4ef8-bc25-24fcc97dc800" },
   { name: "Steam ID", providerId: "1bba104c-f7e3-4b58-8b42-f8c0346cdeab" },
   { name: "Alaska Airlines Miles", providerId: "f1ecc692-cf13-4f45-9b91-ea1459875f07" },
