@@ -1,4 +1,9 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
-
-export default nextConfig;
+const nextConfig = {
+    images: {
+     domains: ['media1.tenor.com', 'media3.giphy.com'],
+   },
+   reactStrictMode: true,
+ };
+ 
+ export default nextConfig;

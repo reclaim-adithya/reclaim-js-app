@@ -7,7 +7,7 @@ const Modal = ({ isOpen, onDismiss }) => {
     if(!isOpen) return null
         return (
             <>
-        <div className="fixed inset-0 bg-black backdrop-blur-sm  bg-opacity-50 flex items-center justify-center z-99999
+        <div className="fixed inset-0 bg-black backdrop-blur-sm  bg-opacity-0 flex items-center justify-center z-99999
         ">
       <div className="mx-auto 
       rounded-lg border-2 border-[#00E] bg-white shadow-[4px_4px_0px_0px_#00E] flex w-[523px] p-8 flex-col justify-center items-center gap-6">
