@@ -13,11 +13,11 @@ const APP_ID = process.env.NEXT_PUBLIC_APP_ID || "0x68d546B72470E4D552e0D72ba279
 const APP_SECRET = process.env.NEXT_PUBLIC_APP_SECRET || "0x29f4dcc9d41f5888dccf09c9b0c330aee1dc53c5df929e61d738de0493bafdd6"
 
 const providers = [
- {
-   name: 'Uber',
-   providerId: '55535317-71ad-4cac-9a38-22652e64be9e'
- }
-];
+  {
+    name: 'Github UserName',
+    providerId: '6d3f6753-7ee6-49ee-a545-62f1b1822ae5'
+  }
+ ];
 
 
 
@@ -136,7 +136,7 @@ export default function Home() {
           <div className="text-black text-center mt-4  mx-auto">
             <h1 className="text-[24px] md:text-[48px] font-[700]">
            
-             Prove you have atleast 1 uber ride
+             Prove you're a developer. 
             </h1>
             <p className="text-[16px] text-[#7E7E8F] font-[500] mb-4 text-center">
             </p>
